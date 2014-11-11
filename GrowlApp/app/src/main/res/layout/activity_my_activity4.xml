@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mglangelo.com.growlapp.MyActivity4"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Circulo Hispano Tomasino, the official spanish organization of the University of Santo Tomas is at the helm in promoting and opening the doors of hispanic culture in the university"
+        android:textSize="12dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Requirements:"
+        android:textSize="10dp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="Any bona fide student, faculty member, alumnus, non-academic staff member and any individual who has special affinity to the University (as honorary members) with a passion for and interest in the Spanish language and culture is qualified to join the organization."
+        android:textSize="10dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp Fee: Php. 150.00"
+        android:id="@+id/textView4"
+        android:textSize="10dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: circulohispanotomasino@ymail.com | Facebook: N/A"
+        android:id="@+id/textView5"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginBottom="28dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/cht_logo"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/textView"
+        android:layout_toRightOf="@+id/textView2" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Recruitment 101 | OSA </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_activity2">AIESEC</string>
+    <string name="title_activity_my_activity3">Becarios de Santo Tomas</string>
+    <string name="title_activity_my_activity4">Circulo Hispano Tomasino</string>
+    <string name="title_activity_my_activity5">COMACH</string>
+    <string name="title_activity_my_activity6">Christ Youth in Action</string>
+    <string name="title_activity_my_activity7">Earth-UST</string>
+    <string name="title_activity_my_activity8">Espanya United</string>
+    <string name="title_activity_my_activity9">Filipino Martial Arts</string>
+    <string name="title_activity_my_activity10">Fotomasino</string>
+    <string name="title_activity_my_activity11">Lingkod ER</string>
+    <string name="title_activity_my_activity12">Mediatrix</string>
+    <string name="title_activity_my_activity13">Musikat</string>
+
+</resources>

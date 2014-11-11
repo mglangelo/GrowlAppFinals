@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mglangelo.com.growlapp.MyActivity12"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Mediatrix is a university wide, non political,student-run,multi-media organization of and for Art enthusiasts of the University of Santo Tomas committed to discover, encourage and nurture Thomasian talents, skills, and appreciation."
+        android:textSize="12dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Requirements:"
+        android:textSize="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="N/A"
+        android:textSize="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginLeft="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp Fee: N/A"
+        android:id="@+id/textView4"
+        android:textSize="10dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: N/A | Facebook: /ustmediatrix"
+        android:id="@+id/textView5"
+        android:textSize="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/mediatrix_logo"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
